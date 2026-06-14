@@ -1,0 +1,20 @@
+{
+  "name": "Voxa 2.0 Social Voice Community",
+  "short_name": "Voxa",
+  "description": "An advanced mobile-first social voice community demo with rooms, chat, gifts, missions, moderation and admin tools.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e0f1b",
+  "theme_color": "#5b3df5",
+  "orientation": "portrait-primary",
+  "categories": ["social", "entertainment", "lifestyle"],
+  "icons": [
+    {"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Browse rooms","short_name":"Rooms","url":"./#discover","icons":[{"src":"assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"My profile","short_name":"Profile","url":"./#profile","icons":[{"src":"assets/icon-192.png","sizes":"192x192"}]}
+  ]
+}
