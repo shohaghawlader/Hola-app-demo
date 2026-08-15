@@ -1,0 +1,1 @@
+window.SITE_CONFIG={name:'AgentBase',domain:'https://yourdomain.com',supportEmail:'support@yourdomain.com'};
