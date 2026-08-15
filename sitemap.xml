@@ -3,10 +3,10 @@
 <url><loc>https://yourdomain.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://yourdomain.com/master-agents.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
 <url><loc>https://yourdomain.com/super-agents.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/sub-admins.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/how-it-works.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/customer-service.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://yourdomain.com/terms.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://yourdomain.com/admin.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://yourdomain.com/customer-service.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://yourdomain.com/how-it-works.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourdomain.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourdomain.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://yourdomain.com/terms.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
