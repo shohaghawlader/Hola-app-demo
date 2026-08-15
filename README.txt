@@ -1,25 +1,26 @@
-AGENTBASE EXCLUSIVE HUB V3
+AGENTBASE MOBILE HUB V4
 
-Highlights
-- Premium interactive hub hero
-- Responsive data console (no mobile scaling hack)
-- Bento intelligence section
-- Chart.js charts
-- Swiper review carousel
-- Lenis smooth scroll
-- GSAP reveals and floating motion
-- Lucide icons
-- DiceBear third-party avatar API
-- Rich profile metadata
-- Search / area / status filters
-- / keyboard shortcut for directory search
-- Strong desktop/tablet/mobile breakpoints
-- No intentional betting/gambling transaction flow
+What changed
+- Homepage redesigned as a compact mobile-first one-screen hub.
+- Primary actions are visible immediately: directory categories, verification, support and FAQ.
+- Fast search by sample profile name, ID or area.
+- Search result updates the featured profile card without leaving the page.
+- Compact bottom navigation designed for thumb reach.
+- Desktop view renders the same experience inside a centered app-style shell.
+- External avatar requests, charts, carousels and motion libraries were removed from the homepage for faster loading.
+- Existing detailed directory/support/legal pages remain available and keep their existing stylesheet.
+- No betting, proxy, payment, deposit or withdrawal transaction flow is included.
+
+Homepage files
+- index.html
+- assets/css/mobile-hub.css
+- assets/js/mobile-hub.js
+- assets/js/agents.js (sample data)
 
 Before launch
-1. Replace AgentBase with your brand.
-2. Replace https://yourdomain.com in all HTML, robots.txt and sitemap.xml.
-3. Update assets/js/agents.js with real approved profile data.
-4. Replace support details.
-5. Replace sample stats and reviews with real verified data.
-6. Review third-party CDN dependencies and privacy/legal text.
+1. Replace AgentBase with your own lawful brand and logo.
+2. Replace https://yourdomain.com in HTML, robots.txt and sitemap.xml.
+3. Replace sample data in assets/js/agents.js with real, approved directory data.
+4. Update support and legal pages with your real organization details.
+5. Add a real backend/API if profile verification must be authoritative.
+6. Do not label profiles as official/verified unless you can substantiate that status.
