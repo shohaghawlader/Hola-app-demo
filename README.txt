@@ -25,3 +25,14 @@ Before launch replace:
 - sample contacts
 - sample URLs
 - legal copy
+
+
+INTERACTIVE UPDATE
+- Desktop and mobile global search overlay
+- Mobile full-screen menu drawer
+- Live support popup
+- WhatsApp CTA uses demo placeholder number 8801000000000
+- Agent Message buttons open live support
+- Report buttons open customer-service page
+
+IMPORTANT: Replace the demo WhatsApp number in assets/js/site.js before production.
