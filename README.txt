@@ -1,49 +1,38 @@
-DEMOWIN SCREENSHOT-MATCH BUILD
+DEMOWIN CLASSIC AGENT DIRECTORY BUILD
 
-Reference-based rebuild using demo branding/content.
+This package has been updated with a screenshot-inspired classic agent-directory homepage while keeping a distinct demo brand and original wording.
 
-Included:
-- Desktop header/logo/nav/ticker
-- Mobile app-like green header and direct icon navigation
-- Quick Master Agent panel
-- Proxy links panel
-- How It Works cards
-- Benefits cards
-- Warning block
-- Agent types
-- Safety note
-- FAQ accordion
-- Partner cards
-- Social strips
-- Footer
-- Responsive directory pages
-- Basic SEO metadata, canonical, FAQ schema, robots, sitemap
+Included on the homepage:
+- Dark olive/green background
+- Large yellow/white DemoWin logo treatment
+- Scrolling news ticker
+- Horizontal navigation tabs
+- Stacked dark information panels
+- Bengali + English information sections
+- Searchable sample Agent List table
+- Complaint / report section
+- Floating customer-service button
+- Responsive mobile layout
 
-Before launch replace:
-- DemoWin brand/logo
-- yourdomain.com
-- sample contacts
-- sample URLs
-- legal copy
+Other existing pages remain in the package:
+- master-agents.html
+- super-agents.html
+- admin.html
+- customer-service.html
+- faq.html
+- about.html
+- verification-policy.html
+- agent-safety.html
+- report-listing.html
+- privacy.html
+- terms.html
 
+IMPORTANT BEFORE PRODUCTION
+1. Replace DemoWin with your own brand/logo.
+2. Replace all sample agent names, IDs and phone numbers with verified data.
+3. Replace yourdomain.com in SEO/canonical content across the old pages.
+4. Review legal/privacy/terms copy for your actual service.
+5. Do not present this demo as an official copy of another business or website.
 
-INTERACTIVE UPDATE
-- Desktop and mobile global search overlay
-- Mobile full-screen menu drawer
-- Live support popup
-- WhatsApp CTA uses demo placeholder number 8801000000000
-- Agent Message buttons open live support
-- Report buttons open customer-service page
-
-IMPORTANT: Replace the demo WhatsApp number in assets/js/site.js before production.
-
-
-FULL SEO CONTENT UPDATE
-- Expanded all existing pages with people-first Bengali content
-- Added About, Verification Policy, Agent Safety Guide, Report Listing
-- Added unique titles and meta descriptions
-- Added canonical URLs
-- Added Organization/WebSite, Breadcrumb, ItemList and FAQ schema where relevant
-- Added internal linking between directory, safety, verification and support pages
-- Updated sitemap with lastmod
-- Removed proxy-link-focused content from homepage and replaced it with trust/support resource links
+Main new theme file:
+assets/css/classic-agent-theme.css
