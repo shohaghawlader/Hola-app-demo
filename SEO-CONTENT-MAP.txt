@@ -1,0 +1,32 @@
+DEMOWIN SEO CONTENT MAP
+=======================
+
+IMPORTANT BEFORE LAUNCH
+- Replace DemoWin with the real authorized brand name.
+- Replace https://yourdomain.com in every canonical/schema/sitemap.
+- Replace all sample agents and placeholder phone/email values.
+- Do not use “Official” unless you can substantiate that claim.
+- Keep verification claims aligned with your real process.
+
+PAGE INTENT / PRIMARY TOPIC
+Home: Agent List Bangladesh / Agent Search / Agent ID Verification
+Master Agents: Master Agent List
+Super Agents: Super Agent List
+Admin: Admin Agent List / Admin Directory
+How It Works: How to Verify an Agent ID / Agent Verification
+FAQ: Agent List FAQ / Agent Search Help
+Customer Service: Agent Customer Service / Verify or Report Listing
+About: About Agent Directory / Directory Methodology
+Verification Policy: Agent Verification Policy / Listing Status Definitions
+Agent Safety: How to Check an Agent / Suspicious Agent Safety
+Report Listing: Report Wrong Agent / Listing Correction
+Privacy: Privacy Policy
+Terms: Terms & Conditions
+
+CONTENT RULES
+1. Do not create dozens of near-duplicate city/keyword pages just to rank.
+2. Add a new indexable page only when it has unique, useful information.
+3. Update dates only after a real content/data review.
+4. Publish a real verification methodology before claiming profiles are verified.
+5. Keep internal links contextual: directory -> verification -> safety -> support.
+6. Individual agent pages should be indexable only when they contain meaningful unique information.

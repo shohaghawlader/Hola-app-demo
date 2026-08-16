@@ -36,3 +36,14 @@ INTERACTIVE UPDATE
 - Report buttons open customer-service page
 
 IMPORTANT: Replace the demo WhatsApp number in assets/js/site.js before production.
+
+
+FULL SEO CONTENT UPDATE
+- Expanded all existing pages with people-first Bengali content
+- Added About, Verification Policy, Agent Safety Guide, Report Listing
+- Added unique titles and meta descriptions
+- Added canonical URLs
+- Added Organization/WebSite, Breadcrumb, ItemList and FAQ schema where relevant
+- Added internal linking between directory, safety, verification and support pages
+- Updated sitemap with lastmod
+- Removed proxy-link-focused content from homepage and replaced it with trust/support resource links

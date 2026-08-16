@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://yourdomain.com/</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/master-agents.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/super-agents.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/admin.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/faq.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/customer-service.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/how-it-works.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/privacy.html</loc><lastmod>2026-08-15</lastmod></url>
-<url><loc>https://yourdomain.com/terms.html</loc><lastmod>2026-08-15</lastmod></url>
+  <url><loc>https://yourdomain.com/</loc><lastmod>2026-08-16</lastmod><priority>1.0</priority></url>
+  <url><loc>https://yourdomain.com/master-agents.html</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/super-agents.html</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/admin.html</loc><lastmod>2026-08-16</lastmod><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/how-it-works.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/faq.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/customer-service.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/about.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/verification-policy.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/agent-safety.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/report-listing.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/privacy.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/terms.html</loc><lastmod>2026-08-16</lastmod><priority>0.7</priority></url>
 </urlset>

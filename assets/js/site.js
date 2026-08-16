@@ -12,7 +12,7 @@
   {name:'রুমানা হক',alt:'Rumana Haque',id:'S04',tier:'Super Agent',phone:'+8801700000014',url:'super-agents.html'},
   {name:'রাশেদ চৌধুরী',alt:'Rashed Chowdhury',id:'A01',tier:'Admin',phone:'+8801700000021',url:'admin.html'},
   {name:'শারমিন আক্তার',alt:'Sharmin Akter',id:'A02',tier:'Admin',phone:'+8801700000022',url:'admin.html'},
-  {name:'মেহেদী হাসান',alt:'Mehedi Hassan',id:'01',tier:'Quick Master Agent',phone:'+8801700000000',url:'index.html'}
+  {name:'মেহেদী হাসান',alt:'Mehedi Hassan',id:'M01',tier:'Master Agent',phone:'+8801700000001',url:'master-agents.html'}
  ];
  const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const initials=n=>n.split(/\s+/).slice(0,2).map(x=>x[0]||'').join('').toUpperCase();
@@ -39,7 +39,7 @@
  document.body.appendChild(chat);const chatPill=document.createElement('button');chatPill.className='chat-close-pill';chatPill.type='button';chatPill.textContent='×  চ্যাট বন্ধ';document.body.appendChild(chatPill);const chatInput=$('#chatMessage');
  function openChat(prefill=''){closeSearch();chat.classList.add('open');chatPill.classList.add('open');if(prefill)chatInput.value=prefill;setTimeout(()=>chatInput.focus(),30)}
  function closeChat(){chat.classList.remove('open');chatPill.classList.remove('open')}
- $('#liveChatBtn')?.addEventListener('click',()=>openChat());$$('.open-chat').forEach(b=>b.addEventListener('click',()=>openChat(`${b.dataset.agent||''}${b.dataset.id?' (ID '+b.dataset.id+')':''} সম্পর্কে জানতে চাই।`.trim())));$('#chatClose').addEventListener('click',closeChat);chatPill.addEventListener('click',closeChat);$('#chatWhatsapp').addEventListener('click',()=>{const msg=chatInput.value.trim()||'Hello, I need help checking a demo agent listing.';window.open('https://wa.me/8801000000000?text='+encodeURIComponent(msg),'_blank','noopener,noreferrer')});
+ $('#liveChatBtn')?.addEventListener('click',()=>openChat());$$('.open-chat').forEach(b=>b.addEventListener('click',()=>openChat(`${b.dataset.agent||''}${b.dataset.id?' (ID '+b.dataset.id+')':''} সম্পর্কে জানতে চাই।`.trim())));$('#chatClose').addEventListener('click',closeChat);chatPill.addEventListener('click',closeChat);$('#chatWhatsapp').addEventListener('click',()=>{const msg=chatInput.value.trim()||'Hello, I need help checking an agent listing.';window.open('https://wa.me/8801000000000?text='+encodeURIComponent(msg),'_blank','noopener,noreferrer')});
  $$('.action.green').forEach(btn=>btn.addEventListener('click',()=>{const c=btn.closest('.panel');openChat(`${$('.agent-name',c)?.textContent.trim()||'Agent'} (ID ${$('.agent-id b',c)?.textContent.trim()||''}) সম্পর্কে জানতে চাই।`)}));
  $$('.action.red').forEach(btn=>btn.addEventListener('click',()=>{const c=btn.closest('.panel'),id=$('.agent-id b',c)?.textContent.trim()||'';location.href='customer-service.html'+(id?'?topic=report&id='+encodeURIComponent(id):'')}));
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(searchOverlay.classList.contains('open'))closeSearch();else if(chat.classList.contains('open'))closeChat()}});

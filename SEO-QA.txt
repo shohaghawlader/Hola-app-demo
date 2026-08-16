@@ -1,0 +1,5 @@
+SEO CONTENT QA
+==============
+HTML pages: 14
+Issues: 0
+No static QA issues found.
